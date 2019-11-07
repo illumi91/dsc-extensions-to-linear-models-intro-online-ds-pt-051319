@@ -1,5 +1,5 @@
 
-# Introduction
+# Extension to Linear Models - Introduction
 
 ## Introduction
 In this section, you'll learn about some ways to make linear models more complex to account for more complicated relationships in a dataset. Before diving in too deep, here is a roadmap for what you will be covering in this section.
