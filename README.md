@@ -4,11 +4,6 @@
 ## Introduction
 In this section, you'll learn about some ways to make linear models more complex to account for more complicated relationships in a dataset. Before diving in too deep, here is a roadmap for what you will be covering in this section.
 
-## Objectives
-You will be able to:
-* Create models to account for non-linear relationships
-* Critically assess what features should be included in a model
-
 ##  Extensions to Linear Models
 
 Unfortunately, not every continuous variable can be predicted effectively using a straight line (a linear model). Imagine the relationship between your 5k time as a runner and how many hours a week you train. At the very least the improvements in your time are going to trail off with additional training (going from 0 -> 10 hrs training a week is going to have way more impact than going from 60 -> 70 hrs). And the chances are that at some point in time, you'll overtrain and additional training will actually degrade your performance. You could certainly model the relationship between weekly training hours and 5k time with a straight line, but for some values of weekly training time, the accuracy of the prediction would probably be extremely low.
